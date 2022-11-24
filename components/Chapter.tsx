@@ -63,10 +63,6 @@ export const Chapter = ({
               {"⟵ Précédent"}
             </Button>
             <div className={[styles.row, styles.alignEnd].join(' ')}>
-              <div className={styles.hiddenOnPhone}>
-                <h3>questions</h3>
-                <div className={styles.spacer__sm} />
-              </div>
               <h1>{questionIdx + 1}</h1>
               <div className={styles.spacer__sm} />
               <h3>{`/${chapter?.questions.length ?? 1}`}</h3>

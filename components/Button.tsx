@@ -12,9 +12,7 @@ const VARIANT = {
 
 export const Button = ({children, onClick, variant = 'primary'}: ButtonProps) => {
   const handler = (event: React.MouseEvent) => {
-    if (event.buttons === 1) {
-      onClick();
-    }
+    onClick();
   }
   return (
     <button
