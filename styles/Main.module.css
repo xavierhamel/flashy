@@ -1,0 +1,167 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  padding: 32px 32px;
+}
+
+.header {
+  margin: 24px 0 64px 0;
+}
+
+.logo {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.footer {
+  text-align: center;
+  margin: 24px 0;
+}
+.footer > h3 {
+  font-size: 10px !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+.alignCenter {
+  align-items: center;
+}
+.alignEnd {
+  align-items: flex-end;
+}
+.grow {
+  flex-grow: 1;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .hiddenOnPhone {
+    display: none;
+  }
+}
+
+.back {
+  cursor: pointer;
+  color: #FFF;
+  font-size: 20px;
+}
+
+.question {
+  min-height: 40vh;
+}
+.questionSection {
+  min-height: 15vh;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.progressContainer {
+  width: 100%;
+  height: 10px;
+  background: #191919;
+  border-radius: 7px;
+  margin: 16px 0;
+}
+
+.progress {
+  height: 100%;
+  background: red;
+  border-radius: 7px;
+  background: linear-gradient(103.74deg, #FF9058 0.7%, #B439B9 98.26%);
+}
+
+.answerButton {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+
+.hiddenAnswer {
+  filter: blur(5px);
+}
+
+.statusContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.status {
+  background: #191919;
+  padding: 4px 2px;
+  display: flex;
+  width: 300px;
+  border-radius: 40px;
+}
+
+.statusButton {
+  text-align: center;
+  flex-grow: 1;
+  margin: 0 2px;
+  padding: 8px 24px;
+  border-radius: 20px;
+  border: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 12px;
+  cursor: pointer;
+}
+.statusSuccess {
+  background: #288C52;
+}
+.statusError {
+  background: #BF4336;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  border-radius: 15px;
+  padding: 24px;
+  background: #2F2F2F;
+}
+
+.spacer__sm {
+  height: 8px;
+  width: 4px;
+}
+
+.spacer__lg {
+  height: 24px;
+  width: 8px;
+}

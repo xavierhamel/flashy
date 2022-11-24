@@ -1,0 +1,390 @@
+== Question - 02 ==
+C'est quoi la réponse en temps à +-5% d'un système et comment trouver cette
+réponse? (graphiquement et analytiquement)
+
+== Réponse ==
+On peut trouver la réponse en temps graphiquement en trouvant le moment où les
+dépassements sont inférieur à 5% sur le graphique.
+On peut trouver analytiquement en utilisant la constante de temps du système
+(qui est le temps pour arriver à la valeur de 63% de la valeur final) et faire
+x3. 3x la constante de temps est le temps pour arriver à 95% de la valeur
+finale, ce qui est le temps de réponse à +-5%.
+
+== Question - 02 ==
+C'est quoi l'erreur statique d'un système?
+
+== Réponse ==
+L'erreur statique est calculé en régime permanent. C'est la différence entre la
+consigne et la sortie du système. L'erreur statique est présente dans un
+système avec entré de consigne (en échelon par exemple). Une consigne est rampe
+ne donne pas une erreur statique, mais une erreur de trainage.
+Lorsqu'on parle d'erreur statique, on peut aussi parler d'erreur de position.
+
+== Question - 02 ==
+C'est quoi l'erreur de trainage d'un système?
+
+== Réponse ==
+L'erreur de trainage est la différence entre une entrée en rampe et sa sortie
+en rampe. Si un sortie s'éloigne sans arrêt de son entré, sa sortie a alors une
+erreur de trainage infinie. L'erreur de trainage est calculé dans le régime
+permanent du système et ne doit pas être confondue avec l'erreur statique.
+Lorsqu'on parle d'erreur de trainage, on peut aussi parler d'erreur de vitesse.
+
+== Question - 02 ==
+C'est quoi et comment calculer un rapport d'amplitude?
+
+== Réponse ==
+Le rapport d'amplitude (aussi appelé le gain) c'est la valeur de la sortie/la
+valeur de l'entrée. Si on a un rapport d'amplitude de 2 ou un gain de 2 alors
+on aura une sortie 2 fois plus grande que l'entrée.
+
+== Question - 02 ==
+C'est quoi le déphasage et comment le trouver?
+
+== Réponse ==
+Le déphasage entre un signal de sortie et un signal d'entré c'est la différence
+de phase entre les 2 signaux. Pour le trouver, on trouve la différence entre le
+peak du signal de sortie et le peak du signal d'entrée. Il suffit ensuite de
+rapporter cette différence en rad (sachant que une période du signal est 2pi et
+le tour est joué).
+
+== Question - 02 ==
+C'est quoi un essai harmonique?
+
+== Réponse ==
+C'est lorsque le régime permanent d'un système avec un sinus en entrée
+
+== Question - 03 ==
+Dans le cours, à partir de quel instant peut être définit la transformé de
+Laplace?
+
+== Réponse ==
+La transformé de Laplace est définit à partir de t = 0-. L'intégrale est
+définit à partir de cet instant pour prendre en compte l'entrièreté d'une
+impulsion à t = 0. On ne peut pas prendre avant le temps t = 0- car les
+systèmes sont causales. Ce qui signifie que la réponse d'un système ne débute
+pas avec l'excitation de lui-même.
+
+== Question - 03 ==
+Quel est la relation entre la grandeur de la partie réelle d'un pôle de F(s) et
+l'amortissement/amplification de la fonction dans le temps?
+
+== Réponse ==
+Plus la partie réelle d'un pôle est négative, plus la fonction est amortie
+rapidement. Inversement, plus la partie réelle d'un pôle est positif, plus la
+fonction est amplifiée rapidement.
+
+== Question - 03 ==
+Que signifie la présence d'une partie imaginaire dans un pôle conjugués pour un
+signal? Quel informatiion peut-on tirer de cette partie imaginaire?
+
+== Réponse ==
+La présence d'une partie imaginaire dans un pôle signifie que le signal est
+périodique.
+La pulsation (en rad/s) correspond à la partie imaginaire. Donc plus la partie
+imaginaire est élevée, plus la fréquence du signal est aussi élevée.
+Il faut savoir que les pôles imaginaires viennent toujours en groupe de 2.
+
+== Question - 03 ==
+Si un pôle (ou une paire de pôle conjugué) est d'ordre n, que cela signifie
+pour le signal final?
+
+== Réponse ==
+f(t) (le signal) sera alors de même nature que si le pôle était simple,
+cependant il sera multiplié par un polynome d'ordre n - 1.
+
+== Question - 03 ==
+Quel est le théorème de la valeur initial et quel sont les trois cas
+d'application de ce théorème?
+
+== Réponse ==
+On peut trouver la valeur initial de f(t) à partir de F(s). Il suffit de
+trouver la limite vers l'infinie de sF(s).
+Les trois cas d'application sont les suivants:
+1) Lorsque l'ordre de F(s) est nul, le théorème ne s'applique pas car il y a
+une impulsion en f(0). C'est le rapport des coefficiants du plus haut degrée.
+2) Lorsque l'ordre de F(s) est 1, la valeur est `b_{n - 1}/a_n`
+3) Lorsque l'ordre de F(s) est 2 ou plus, la valeur initial est `0`
+
+== Question - 03 ==
+Quel est le théorème de la valeur final et quel est la a condition à respecter
+pour son utilisation?
+
+== Réponse ==
+On peut trouver la valeur finale de f(t) à partir de F(s). Il suffit de
+trouver la limite vers 0 de sF(s).
+`f(t)` doit tendre vers une valeur constante pour que ce théorème fonctionne,
+sinon il n'y a pas de valeur finale.
+
+== Question - 04 ==
+C'est quoi un système qui est invariant dans le temps?
+
+== Réponse ==
+Si on décalle l'entrée dans le temps, la sortie sera décallée de la même façon
+dans le temps. Le système ne sait pas quelle heure il est et peut importe
+l'heure de départ, il aura le même comportement.
+
+== Question - 04 ==
+Qu'est-ce qu'est un signal d'entrée causale et un système causale?
+
+== Réponse ==
+Un signal `u(t)` est causal si `u(t) = 0` pour `t < 0`. Un système est causal,
+si sa sortie `y(t)` est aussi causal pour une entrée causal.
+
+== Question - 04 ==
+Pour un ordre de dérivation de `y(t)` noté `n` et un ordre de dérivation de
+`u(t)` noté `m` combien de conditions initials doivent être connues pour pour
+résoudre le système linéaire?
+
+== Réponse ==
+On doit connaitre `m + n` conditions initiales.
+
+== Question - 04 ==
+Quelles sont les 3 étapes pour calculer la réponse d'un système?
+
+== Réponse ==
+1. Calculer la transformé de Laplace de l'équation différentielle du système.
+2. Isoler `Y(s)`
+3. Déduire `y(t)`, la transformé inverse de `Y(s)`
+
+== Question - 04 ==
+La fonction `Y(s) = G(s)U(s) + C(s)` montre la relation entre la fonction de
+transfert et la réponse du système. Comment trouver la réponse forcée
+(`G(s)U(s)`) ainsi que la réponse libre (`C(s)`) du système?
+
+== Réponse ==
+La réponse forcée (`Y_{forcée}(s) = G(s)U(s)`) est la réponse du système avec
+l'excitation `u(t)` avec les conditions initiales nulles.
+La réponse libre (`Y_{libre}(s) = C(s)`) est la réponse aux conditions
+initiales avec une entrée nulle `u(t) = 0`.
+On peut ensuite mettre les deux ensemble pour trouver `Y(s)` en faisant la
+somme des 2 réponses: `Y(s) = Y_{libre}(s) + Y_{forcée}(s)`.
+
+== Question - 04 ==
+Comment calculer une fonction de transfert?
+
+== Réponse ==
+Une fonction de transfert est la sortie du système divisé par son entrée, pour
+des conditions initiales nulles.
+
+== Question - 04 ==
+Pourquoi il ne fait aucun sens de calculer l'inverse de `G(s)` ou encore les
+valeurs initiales et finales de `g(t)`. (où `G(s)` est la fonction de
+transfert).
+
+== Réponse ==
+La fonction de transfert représente le comportement d'un système et non le
+comportement d'un signal. Le comportement d'un système dans le temps n'a donc
+pas de sens physique.
+
+== Question - 04 ==
+Comment est nommé la réponse d'un système à un échelon unitaire avec des
+conditions initiales nulles?
+Comment est nommé la réponse d'un système à une impulsion unitaire avec des
+conditions initiales nulles?
+
+== Réponse ==
+La réponse indicielle ou réponse à l'échelon.
+La réponse impulsionnelle.
+Dans les deux cas, il faut bien faire attention que les conditions initiales
+soient nulles.
+
+== Question - 04 ==
+En considérant que les systèmes sont bien linéaires, que peut-on conclure de la
+forme de `y_1(t)` si `u_1(t) = u'(t)`? La forme de `y_2(t)` si `u_2(t) =
+∫u(T)dT`?
+
+== Réponse ==
+Puisque les systèmes sont linéaires, on peut conclure que si `u_1(t) = u'(t)`
+alors `y_1(t) = y'(t)` et si `u_2(t) = ∫u(T)dT` alors `y_2(t) = ∫y(T)dT`.
+
+== Question - 04 ==
+En considérant une entrée `u(t)`, quel est la nature de la sortie `y(t)` en
+régime permanent?
+
+== Réponse ==
+La sortie `y(t)` en régime permanent est de même nature que sont entrée. Par
+exemple, pour une entrée en sinus, la sortie sera aussi un sinus de même
+fréquence. Il faut faire attention, le transitoire n'arrête jamais avec un pôle
+à partie réelle positif ou avec un couple de pôle imaginaire!
+
+== Question - 04 ==
+Qu'arrive-t-il si une fonction de transfert a un pôle à partie réelle positive
+en régime permanent?
+Pour une fonction de transfert avec un couple de pôles imaginaires?
+
+== Réponse ==
+Avec un pôle à partie réelle positif, la sortie du système sera de plus en plus
+amplifié. Le régime transitoire n'aura donc pas de fin.
+Avec un couple de pôles imaginaires, la composante transitoire contiendra une
+fonction périodique qui s'additionnera à la composante permanente.
+
+== Question - 04 ==
+Qu'est-ce qu'un système stable asymptotiquement et comment le trouver?
+
+== Réponse ==
+Une système stable asymptotiquement est un système qui retourne vers son point
+d'équilibre (donc si la réponse tend vers zéro en régime permanent) si des
+conditions non nulles lui sont appliqué et qu'il est en abscence d'excitation.
+
+== Question - 04 ==
+Qu'est-ce qu'est un système stable asymptotiquement et stable non
+asymptotiquement?
+
+== Réponse ==
+Un système stable asymptotiquement est un système où la sortie tendera vers si
+aucune excitation n'est appliqué.
+Un système stable non asymptotiquement est un système où la sortie tendra vers
+une valeur qui n'est pas zéro. La sortie ne s'éloigne pas de sa valeur au
+repos.
+Un système instable est un système qui s'éloigne de sa valeur au repos.
+
+== Question - 04 ==
+Est-ce que les fonctions de transfert suivants sont stable asymptotiquement,
+stable non asymptotiquement ou instable?
+1) `G(s)` à partie réelle négative
+2) `G(s)` à partie réelle positive
+3) `G(s)` n'a pas de pôle instable mais pôle à l'origine.
+4) `G(s)` n'a pas de pôle instable mais a une paire de pôle imaginaire pure.
+
+== Réponse ==
+1) Stable asymptotiquement
+2) Instable
+3) Stable non asymptotiquement (donc avec un offset)
+4) Le système oscille
+
+== Question - 04 ==
+Est-ce que la stabilité d'un système linéaire dépend de son excitation ou des
+conditions initiales?
+
+== Réponse ==
+Non, la stabilité dépend seulement de la fonction de transfert du système.
+
+== Question - 04 ==
+Quel est la répone en régime permanent de `G(s)` à `u(t) = u_0sin(wt)`?
+
+== Réponse ==
+La réponse est `y_p(t) = |G(jw)|u_0sin(wt + Arg(G(jw)))`.
+
+== Question - 04 ==
+Qu'est-ce que le plan de Nyquist et comment le trouver?
+
+== Réponse ==
+Pour un système `G(s)`, le lieu de Nyquist est la position de `G(jw)` pour
+toutes les fréquence dans un plan complexe.
+
+== Question - 04 ==
+Que se retrouve sur les 2 graphes d'un diagramme de Bode.
+
+== Réponse ==
+Sur le premier graphe se retrouve le rapport d'amplitude en décibel
+(`20log|G(jw)|`).
+Sur le second graphe se retrouve la phase en degrée (`Arg(G(jw))`).
+
+== Question - 04 ==
+Qu'est-ce que le lieu de Black?
+
+== Réponse ==
+Le lieu de Black condense en un seul graphe les deux courbes du diagramme de
+Bode. En abscisses la phase en degrée et en ordonnée le rapport d'amplitude en
+décibels. (`20log|G(jw)|` et `Arg(G(jw))`)
+
+== Question - 05 ==
+Lorsque l'on dit "Système de premier ordre", que voulons-nous dire par ordre?
+
+== Réponse ==
+L'ordre représente le nombre de dérivation maximal de l'équation différentielle
+du système. Le premier ordre veut donc dire que le nombre maximal de dérivation
+est 1.
+
+== Question - 05 ==
+L'équation différentielle pour un système de premier ordre est `Ty'(t) + y(t)
+= Ku(t)`. Que représente les constantes `T` et `K`?
+
+== Réponse ==
+`T` représente la constante de temps du système. La constante de temps est le
+temps pour atteindre 63% de la valeur en régime permanent.
+`K` est le gain statique du système.
+
+== Question - 05 ==
+Quel est la fonction de transfert d'un système de premier order?
+`Ty'(t) + y(t) = Ku(t)`
+
+== Réponse ==
+La fonction de transfert est `G(s) = K/(1 + Ts)`.
+
+== Question - 11 ==
+Que dit la loi de Newton `F = ma`?
+
+== Réponse ==
+Elle dit que la somme de toutes les forces appliquées sur une masse est
+équivalente à sa masse fois son accélération.
+
+== Question - 11 ==
+Quel est l'unité du travail `E` et que représente cette unité? Comment est
+définit le travail?
+
+== Réponse ==
+L'unité du travail `E` est le joule et un joule est en `m⋅N`. Le travail est
+définit comme étant la somme des forces multiplié par le déplacement. (C'est
+pour ça que l'unité est en Newton fois mètre).
+
+== Question - 11 ==
+Qu'est-ce qu'est la puissance et la puissance se définie?
+
+== Réponse ==
+La puissance est la somme des forces fois la vitesse d'un objet. L'unité de la
+puissance est en Watt, ce qui est en `J/s` ou encore en `m⋅N/s`. Puisque un
+joule est `J = N⋅m`.
+
+== Question - 11 ==
+Qu'est ce qu'un moment d'inertie et qu'elle est son unité?
+
+== Réponse ==
+Un moment d'inertie dans un système est rotation est similair à une masse dans
+un sysème de translation. On définie le moment d'inertie par des `kg⋅m^2`.
+
+== Question - 12 ==
+Qu'est-ce qu'un système intégrateur? Qu'arrive-t-il si son entrée est nulle?
+
+== Réponse ==
+Un système est intégrateur si pour une entrée en échelon, sa sortie est une
+rampe. Un système intégrateur sera constant si son entrée est nulle. Une
+impulsion à `t = 0` donnera alors une sortie en échelon à partir de `t = 0`.
+
+== Question - 12 ==
+Quel est la fonction de transfert d'un régulateur PI? Quel est un des objectifs
+du régulateur PI?
+
+== Réponse ==
+Sa fonction de transfert est `G(s) = K_c + K_c/T_i⋅s`. Le premier terme est un
+gain proportionnel à l'entrée et le second est un intégrateur. 
+L'objectif principal du régulateur PI est d'amener la sortie égale à l'entrée
+en régime permanent.
+Pour `y(∞) = r(∞)`, alors `ε(∞)= 0`
+
+== Question - 12 ==
+Si un fonction de transfert à un module `|G(jw)| -> ∞` et un argument
+`Arg(G(jw)) -> 90deg`, que cela signifie pour la fonction de transfert? Quel
+information cela nous donne-t-il?
+
+== Réponse ==
+Cela nous dit que la fonction de transfert a au moins un intégrateur. Dans un
+système asservie, cela signifie que l'erreur tend vers 0.
+
+== Question - 12 ==
+Si `G(s)` a un module de `6dB` et un déphasage de -180deg, quel est la valeur
+du gain de `G(s)`?
+
+== Réponse ==
+Le module de `G(s)` est de `10^(6/20) = 2`. Le gain sera alors de `-2` puisque
+le déphasage est de -180deg.
+
+== Question - 12 ==
+Comment trouver le module de `y(t)` à partir d'une fonction de transfert si
+l'entrée est sinuosidale?
+
+== Réponse ==
+On peut utiliser la relation suivante: `y(t) = |G(s)|u_0sin(wt)`. Le module de
+`y(t)` est donc `|G(s)|u_0`.
+
