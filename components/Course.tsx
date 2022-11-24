@@ -21,17 +21,23 @@ export const Course = ({
   const [chapters, updateChapters] = useState<Chapter[]>();
   useEffect(() => {
     import(`../courses/${courseId}.json`)
-      .then((c) => updateChapters(c.default));
+      .then((c) => {
+        setTimeout(() => {
+          updateChapters(c.default)
+        }, 300);
+      });
   }, [courseId]);
   return (
     <>
       <Header
         title={title}
-        subtitle={`${chapters?.length} chapitres` ?? '...'}
+        subtitle={chapters?.length !== undefined ? `${chapters.length} chapitres` : '...'}
         onBack={onBack}
       />
       {!chapters ? (
-        <p>Chargement...</p>
+        <div className={styles.spinnerContainer}>
+          <div className={styles.spinner} />
+        </div>
       ) : (
         <div className={styles.cards}>
           {chapters.map((chapter, idx) => (

@@ -21,6 +21,12 @@ export default function Home() {
       <Head>
         <title>Flashy</title>
         <meta name="description" content="Flashy par Xavier Hamel" />
+        <meta property="og:title" content="Flashy" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Étudier efficacement à l'aide de flash cards" />
+        <meta property="og:image" content="https://flashy.xavierhamel.ca/card.png" />
+        <meta property="og:url" content="https://flashy.xavierhamel.ca" />
+        <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="./favicon.png" />
       </Head>
 

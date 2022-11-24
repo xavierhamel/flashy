@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  --primary: linear-gradient(103.74deg, #FF9058 0.7%, #B439B9 98.26%);
 }
 
 .container {
@@ -40,6 +41,9 @@
 
 .spaceBetween {
   justify-content: space-between;
+}
+.justifyCenter {
+  justify-content: center;
 }
 .alignCenter {
   align-items: center;
@@ -88,7 +92,7 @@
   height: 100%;
   background: red;
   border-radius: 7px;
-  background: linear-gradient(103.74deg, #FF9058 0.7%, #B439B9 98.26%);
+  background: var(--primary)
 }
 
 .answerButton {
@@ -164,4 +168,41 @@
 .spacer__lg {
   height: 24px;
   width: 8px;
+}
+
+.spinnerContainer {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+.spinner:after {
+  content: " ";
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 4px solid #FFF;
+  border-color: #FFF transparent #FFF transparent;
+  animation: spinner 1.2s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+button.buttonDisabled {
+  opacity: 0.5;
+  cursor: normal !important;
 }

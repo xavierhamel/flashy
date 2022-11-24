@@ -11,11 +11,7 @@ export const Header = ({onBack, title, subtitle, progress}: HeaderProps) => {
   return (
     <div className={styles.header}>
       {onBack && (
-        <div
-          className={styles.back}
-          onClick={onBack}>
-          {"⟵"}
-        </div>
+        <div className={styles.back} onClick={onBack}>⟵</div>
       )}
       {!!subtitle && <h3>{subtitle}</h3>}
       {!!title && <h1>{title}</h1>}

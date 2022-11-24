@@ -4,7 +4,6 @@ import { Header } from '../components/Header'
 import { useEffect, useState } from 'react';
 import type { Chapter as _Chapter } from '../types';
 import { Button } from './Button';
-import { QuestionStatus } from './QuestionStatus';
 
 interface ChapterProps {
   courseId: string;
@@ -59,7 +58,10 @@ export const Chapter = ({
       ) : (
         <>
           <div className={[styles.row, styles.spaceBetween, styles.alignCenter].join(' ')}>
-            <Button onClick={() => changeQuestionHandler(-1)} variant="light">
+            <Button
+              onClick={() => changeQuestionHandler(-1)}
+              variant="light"
+              disabled={questionIdx === 0}>
               {"⟵ Précédent"}
             </Button>
             <div className={[styles.row, styles.alignEnd].join(' ')}>
@@ -67,7 +69,10 @@ export const Chapter = ({
               <div className={styles.spacer__sm} />
               <h3>{`/${chapter?.questions.length ?? 1}`}</h3>
             </div>
-            <Button onClick={() => changeQuestionHandler(1)} variant="light">
+            <Button
+              onClick={() => changeQuestionHandler(1)}
+              variant="light"
+              disabled={questionIdx === questionCount - 1}>
               {"Suivant ⟶"}
             </Button>
           </div>
