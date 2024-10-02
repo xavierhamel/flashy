@@ -12,6 +12,22 @@ interface ChapterProps {
   onBack: () => void;
 }
 
+function shuffle(array: any) {
+  let currentIndex = array.length;
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    let randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+}
+
 
 export const Chapter = ({
   courseId,
@@ -28,6 +44,7 @@ export const Chapter = ({
     import(`../courses/${courseId}.json`)
       .then((c) => {
         const chapter = c.default[chapterIdx];
+        shuffle(chapter.questions);
         updateChapter(c.default[chapterIdx]);
         setQuestionCount(chapter.questions.length);
       });

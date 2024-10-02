@@ -15,9 +15,10 @@ export const Courses = ({onCourseChange}: CoursesProps) => {
         subtitle="Université Laval"
       />
       <div className={styles.cards}>
-        {courses.map((course) => {
+        {courses.map((course, idx) => {
           return (
             <Card
+              key={idx}
               onClick={() => onCourseChange(course.id)}
               title={course.name}
               subtitle={course.id.toUpperCase()}
