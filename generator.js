@@ -2,7 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 
 async function processLineByLine() {
-  const fileStream = fs.createReadStream('cue-card.txt');
+  const fileStream = fs.createReadStream('cue-micro.txt');
 
   const rl = readline.createInterface({
     input: fileStream,

@@ -1,0 +1,415 @@
+== Question - 01 ==
+C'est quoi la microbiologie?
+
+== Réponse ==
+C'est l'étude des êtres vivants de taille microscopique. Les êtres vivants qui demande
+l'utilisation d'un microscope.
+
+== Question - 01 ==
+Quel est la taille des micrioorganisme? Quel est la résolution maximale de l'oeil humain?
+
+== Réponse ==
+Limite de résolution pour l’humain environ 0.1 mm (100um)
+ - Tailles de microorganismes : 10e-6m (um) à 10e-9m (nm)
+ - < 1 mm : difficile de voir les détails 
+ - Plus la limite de résolution est petite, plus on peut voir de détails. 
+
+== Question - 01 ==
+Qui a inventé le microscope? Quel était les performances de ce microscope?
+
+== Réponse ==
+Le microscope a été inventé par Hans Jansen ou Galilé en 1550. Le premier microscope était limité,
+car il avait une courte distance focale et avait donc un agrandissement limité. On devait coller le
+microscope sur le microorganisme pour l'observer.
+
+== Question - 01 ==
+Quels étaient les 2 (ou 3) premières utiliations des microorganismes dans l'histoire?
+
+== Réponse ==
+Les Égyptiens utilisaient les microorganismes en -4000 ans.
+Le pain était réalisé à partir de levain et de céréales. Le levain étant une bactérie est un
+microorganisme. La bière était aussi présente à ce moment dans l'histoire et était réalisé à partir
+de levure. On parle ici de microbiologie appliqué puisqu'on était capable de reproduire les recettes
+(sans pour autant comprendre pourquoi les recettes fonctionnaient). La bière était nutritive et
+permettait la conservation (la présence d'alcool empêche la détérioration du liquide).
+Histoire du vin: Premier vin était aussi fabriqué pendant la période néolithique (-7000 ans). Les
+Égyptiens ont ensuite mis au point la recette. Finalement les Grecs ont perfectionnés la recette
+avec des méthodes uniformisés et reproductible.
+
+== Question - 01 ==
+Quel serait un effet thérapeutique des microorganismes utilisé en -2000?
+
+== Réponse ==
+La bière-gruau (bière à base de gruau) qui était utilisé par les nubiens en -2000. Ce type de bière
+contient un cataplasme pour les blessures (contres les infections) à cause de la tétracycline
+présente. Boire ce type de bière permet l'accumulation de tétracycline dans les os.
+
+== Question - 01 ==
+Comment et pourquoi prendre des mesures de conservation des aliments dans l'histoire?
+
+== Réponse ==
+Pour conserver les aliments, on utilisait le séchage, le salage ou encore la fumigation. Le but de
+ces 3 méthodes étaient de produire des conditions pour que les microorganismes (qui pourraient
+rendre malade une population) ne se développent pas. Dans les 3 cas, on réduit l'eau dans les
+produits, il y a alors inhibition des microorganismes.
+
+== Question - 01 ==
+Pourquoi et comment faire fermenter des aliments dans l'histoire?
+
+== Réponse ==
+Fermentation pour augmenter les propriétés organoleptiques. On veut augmenter le temps de
+conservation, le goût et les propriétés nutritionnelles. En -40000 ans l'igname (légume australien)
+était fermenté pour pouvoir conserver les aliments toujours. En -7200 ans, apparition du fromage
+Croate. En -3200 ans, apparition du fromage Égyptiens.
+
+== Question - 01 ==
+Qui est le père de la microbiologie? Qu'a-t-il observé?
+
+== Réponse ==
+Antoine van Leeuwenhoek (AvL) est le père de la microbiologie.
+Il a observé, décrit et publier sur les protozaires, bactéries, levures, microalgues et les
+globules rouges. Il est aussi le 1er à décrire la plaque dentaire et sa composition.
+
+== Question - 01 ==
+Qui est Robert Hooke?
+
+== Réponse ==
+Il traduit les ouvrages de Antoine van Leeuwenhoek (AvL). Il définit le mot cellule.
+
+== Question - 01 ==
+Quel est la différence entre la théorie abiogenèse et la théorie biogénèse?
+
+== Réponse ==
+La théorie abiogenèse dit que la naissance des organisme prend naissance dans l'inanimé. L'exemple
+serait "On prend une souris morte et on fait apparaitre des mouches et des vers.". La théorie
+biogénèse est la théorie selon laquelle un être vivant ne peut provenir que d'un autre être vivant.
+Cet théorie dicte donc qu'il y a une réorganisation de l'énergie vitale.
+
+== Question - 01 ==
+Quel théorie de la naissance des organisme Francesco Redi réfute-il et avec quel exemple?
+
+== Réponse ==
+Francesco Redi réfute la théorie de la abiogénèse. En mettant un morceau de viande en décomposition
+dans un gaz, il n'y a pas de mouches qui apparaissent.
+
+== Question - 01 ==
+Quel théorie de la naissance des organisme John Needham prône-t-il? Quel est l'expérience qu'il
+effectu pour démontrer la théorie? Quel est le problème avec son expérience?
+
+== Réponse ==
+John Needham prône la théorie de la génération spontanée. Pour démontré sa théorie il fait
+bouillir de l'eau et laisse l'eau dans un contenant fermé. Après un certain temps, le bouillon
+devient trouble (on a donc présence d'organismes). Le problème de son expérience est qu'il n'y a
+pas eu de stérilisation avant son expérience et l'eau n'est pas bouilli suffisement longtemps.
+
+== Question - 01 ==
+Quel théorie de la naissance des organisme Lazaro Spallanzani prône-t-il? Quel est l'expérience
+qu'il effectu pour démontrer la théorie? Quel est sa découverte?
+
+== Réponse ==
+Lazaro Spallanzani réfute la théorie de la génération spontanée. Pour démontré sa théorie il fait
+bouillir de l'eau pendant 45 minutes et laisse l'eau dans un contenant fermé. L'eau ne devient pas
+trouble, même après un long moment. On peut donc conclure qu'il n'y a pas de génération spontanée.
+Il découvre aussi que dès que le flacon est ouvert, l'eau devient trouble. Il conclu donc qu'il y a
+présence de corps organique dans l'air.
+
+== Question - 01 ==
+Quel est la théorie de Schroder et von Dusch? Quel est leurs expérience?
+
+== Réponse ==
+Les deux scientifiques prône la théorie biogénèse. Ils démontrèrent qu'il était possible de filtrer
+les microorganismes (comme les bactéries) de l'air en utilisant un filtre en ouate.
+
+== Question - 01 ==
+Quel sont les découvertes de John Tyndall?
+
+== Réponse ==
+Invention de la chambre sans poussière. Il invente aussi la Tyndallisation qui est un procédé de
+stérilisation par chauffage discontinu.
+
+== Question - 01 ==
+Quel théorie Louis Pasteur invalide-t-il?
+
+== Réponse ==
+La théorie de la génération spontanée. Louis Pasteur est un scientifique rigoureux qui applique la
+méthode scientifique. Il est aussi un conférencier convaincant avec ses preuves non réfutables.
+
+== Question - 01 ==
+Décrivez l'expérience de Louis Pasteur utilisant un Col de cygne.
+
+== Réponse ==
+Louis Pasteur invente le flacon à col de cygne. Ce type de flacon permet d'attrapper les organismes
+dans l'air. Le flacon est stérilisé, ensuite l'air est capable de passer dans le col jusqu'au
+bouillon. Cependant, le col attrappe et filtre les microorganismes. Le trouble apparait seulement
+si le col est brisé. Louis Pasteur a donc démontré qu'il n'y a pas de génération spontanée.
+
+== Question - 01 ==
+Qu'est-ce que la pasteurisation et comment fut-elle découverte?
+
+== Réponse ==
+La pasteurisation est le fait de chauffer un liquide ou un mélange à une température fixe pour
+tuer les bactéries et/ou microorganismes dans ce liquide. Aujourd'hui, le lait est pasteurisé pour
+qu'il reste bon plus longtemps. Initialement, Pasteur avait découvert la pasteurisation en
+travaillant sur le vin. En effet, son but était d'éliminer les maladies du vin. Il se rendit compte
+que les maladies du vin étaient causé par les bactéries ou microorganismes dans le vin. La
+pasteurisation permit d'éliminer les microorganismes du vin. Cependant, le goût du vin changea et
+la pasteurisation du vin n'est aujourd'hui plus vraiment utilisée.
+
+== Question - 01 ==
+Qu'est ce que l'anaérobiose?
+
+== Réponse ==
+L'anaérobiose est la vie sans air de certains microorganismes. Ces microorganismes ne se déplacent
+plus en entrant en contact avec l'air. O_2 est toxique pour certains microorganismes. Ce type de
+vie est extrêmement abondante. Le microorganismes transforment la matière, c'est ce qui cause la
+fermentation. Ainsi, dans le cas de la fermentation alcoolique, la levure tenue à l'abri de l'air
+vit en provoquant aux dépens du sucre une réaction chimique qui libère les substances dont elle a
+besoin et provoque en même temps l'apparition d'alcool. Si ces microorganismes sont en contacts
+avec l'air, l'alcool produit est faible, car les microorganismes se nourissent d'air.
+
+== Question - 01 ==
+Que veut dire la phrase "Les microorganismes sont des agents étiologiques des maladies"?
+
+== Réponse ==
+Cela signifie que les microorganismes sont la cause des certaines maladies.
+
+== Question - 01 ==
+Quelle était la théorie de Von Plenciz?
+
+== Réponse ==
+Sa théorie était que différentes maladies venaient de différents organismes. La transmission de ces
+microorganismes seraient à la base de la contagion. Il n'avait cependant aucune preuve de ce qu'il
+avançait. On sait aujourd'hui que sa théorie était bonne.
+
+== Question - 01 ==
+Qu'est ce que Agostino Bassi démontre?
+
+== Réponse ==
+Il est le premier à démontrer le lien entre la présence de microorganismes et le développement de
+maladies. Il démontre que la maladie du ver à soie est une maladie causé par un champignon et que
+la maladie est contagieuse entre les vers à soies. C'est le premier lien de cause à effet d'une
+maladie.
+
+== Question - 01 ==
+Quelle découverte fait Robert Koch en lien avec la bacille du charbon?
+
+== Réponse ==
+Il est le premier a faire le lien entre une maladie pouvant se transmettre d'un animal à l'homme.
+Il est aussi le premier à réussir la culture du bacille du charbon.
+
+== Question - 01 ==
+Quel est le postulat de Koch?
+
+== Réponse ==
+1. Le microorganisme doit être présent dans tous les animaux malades et absents des animaux sains.
+2. Le microorganisme doit être cultivé en culture pure à l’extérieur des animaux malades. Pour
+s’assurer d’autres interventions des microorganismes des animaux malades.
+3. Un animal sain inoculé avec cette culture doit développer la maladie avec tous ses symptômes.
+4. Le microorganisme doit encore être isolé (de cet animal) et doit être identique à celui
+précédemment isolé.
+
+== Question - 01 ==
+Quel sont les restrictions du postulat de Koch?
+
+== Réponse ==
+1. Plusieurs microorganismes peuvent causer une même maladie (ex. différentes souches de la
+grippe)
+2. Certains microorganismes pathogènes ne sont pas cultivables. Or, si on doit isoler en culture
+pure, ça ne sera pas possible. Exemple, la lèpre. Toujours aujourd’hui, impossible de la cultiver
+purement. Donc les postulats de Koch ne s’appliquent pas à cet exemple.
+3. Un microorganisme peut causer plusieurs maladies, par exemple l’herpès, peut causer des
+infections génitales, des yeux, buccales, etc. 
+
+
+== Question - 01 ==
+Quel est la découverte de Semmelweis?
+
+== Réponse ==
+Il découvrit que de se laver les mains pouvait avoir un impact majeur sur le taux de mortalité dans
+les hopitaux.
+Il y avait 2 cliniques pour la naissance. La première avec des sage-femme avec un taux de mortalité
+autour de 2%. Le second avec des étudiants médecins qui travaillaient aussi sur des cadavres dans
+la morgue avec un taux de mortalité de 15%. Il réalisa que les maladies étaient trasmisent entre la
+morgue et la salle d'accouchement. Il présciva aux médecins de se laver les mains. Cela fonctionna
+et le taux de mortalité chuta drastiquement.
+
+== Question - 01 ==
+Quel est la découverte de Joseph Lister?
+
+== Réponse ==
+Il réussit à abaisser le taux de mortalité des lors des opérations de 45% (passer de 60 à 15%) en
+utilisant l'aseptisation. L'aseptisation permet de tuer les microorganismes sur la peau avant
+l'opération et ainsi réduire les chances d'une infection. Pour ce faire il vaporise du phénol sur
+la peau. Il stérilise donc la peau et les instruments.
+
+== Question - 01 ==
+Quel est l'observation de Lady Montague?
+
+== Réponse ==
+Elle remarqua que les fermiers/fermières turques prenaient de pustules bovines pour la protection
+contre le virus humain de la variole. Le virus de la variole bovine et humaine est semblable, mais
+n'est pas le même. Le corps apprend donc à le combattre.
+
+== Question - 01 ==
+Quel démonstration fit Edward Jenner?
+
+== Réponse ==
+Il démontra que d'infecter quelqu'un avec la variole bovine protégait les personnes contre la
+variole humaine. Il a donc utilisé la méthode scientifique en apposant une hypothèse et en
+observant les résultats. Il serait l'inventeur du premier vaccin.
+
+== Question - 01 ==
+Quel est la recherche qu'effectu Pasteur en lien avec les vaccins?
+
+== Réponse ==
+Découvre une infection qui cause la rage et le choléra avaire et la tuberculose.
+Il fait ensuite une expérience publique en 1867 sur les poulets. Il donne une vieille population de
+l'infection a des poulets. Il réalise que l'infection protège les poulets au lieu de développer
+l'infection. Il réussit donc à développer un vaccin.
+
+== Question - 01 ==
+Que découvre Élie Metchnikoff en lien avec le système immunitaire?
+
+== Réponse ==
+Élie Metchnikoff découvre les phagocytes. Ce sont des cellules qui sont à la première ligne de
+défense chez les vertébrés et les invertébrés. Ces cellules mangent les corps étrangés dans le corps
+pour les faire disparaitre.
+Il réalise aussi que les personnes consommant plus de probiotiques vivent plus longtemps.
+
+== Question - 01 ==
+Qu'est-ce qu'un phagocyte?
+
+== Réponse ==
+Phagocyte signifie "cellule mangeuse", c'est une cellule qui peut manger des particules supérieur à
+0.5um qui sont par exemple des microorganismes comme des bactéries, des cellules altérées, des
+tissus sanguins ou des particules étrangères à l'organisme.
+
+== Question - 01 ==
+Qu'est-ce que la biogéochimie?
+
+== Réponse ==
+La biogéochimie c'est le fait que les microorganismes ont un rôle dans le cycle de la matière. Ces
+microorganismes modifient la matière et joue des roles primordiaux.
+
+== Question - 01 ==
+Quel est le cycle de l'azote? À quoi sert le cycle de l'azote?
+
+== Réponse ==
+Les bactéries transforment l'azote (N2 -> NH3 -> NH2). Les bactéries
+viennent donc fixer l'azote. L'azote N2 est un gaz inerte. Il n'est pas possible pour les plantes
+de consommer cet azote. Les microorganismes viennent fixer l'azote en NH3 par exemple qui est un
+minéral et il est donc possible pour les plante de le consommer.
+
+== Question - 01 ==
+Quel est l'invention de Charles Edward Chamberland?
+
+== Réponse ==
+Il invente un filtre d'eau en porcelaine. Le filtre permet de retenir les microorganismes de l'eau
+et est donc capable de rendre l'eau potable. La fièvre typhoide est une maladie qui se répendait,
+car l'eau était contaminée par la salmonella typhi. Le filtre permet de rendre l'eau potable.
+
+== Question - 01 ==
+Qu'est-ce qu'un virus? Comment on-t été découvert?
+
+== Réponse ==
+Les virus sont très petits et ne sont pas des cellules. Ils vont infecter un tissu et se répliquer
+rapidement dans celui-ci. Il va forcer les cellules à perdre leurs intégriter pour pouvoir se
+répliquer.
+Les virus sont découverts par Ivanowski et Beijerinck au même moment de façon indépendante. Ils
+réalisent que le filtre de Chamberland ne permet pas de filtrer tous les agents infectieux. En
+effet, les virus sont beaucoup plus petit et le filtre n'est pas suffisement petit. Il y a donc un
+autre type d'agent infectieux que les bactéries: les virus.
+
+== Question - 01 ==
+Que réussient Stanley et Northrop au courant de leurs carrières?
+
+== Réponse ==
+Ils ont réussi à faire la cristallisation du virus de la mosaïque du tabac, on l’amène à l’état solide 
+et on analyse sa structure moléculaire. Les virus conservent leurs capacités à infecter même 
+retourner à leur état normal.
+
+== Question - 01 ==
+Quel est la découverte de Alexander Fleming?
+
+== Réponse ==
+Alexander Fleming découvra par accident la Pénicilline. Il remarqua qu'un champignon c'était
+développer dans une de ses cultures, mais que les bactéries ne s'apporchait pas dans un certain
+rayon de ce champignon. Il découvre ainsi la substance à la base des premiers antibiotiques. Ce 
+n'est cependant pas lui qui développera le premier antibiotique. Une autre équipe le fera à partir
+de ses publications.
+
+== Question - 01 ==
+Quel est la découverte de A.J Kluyver?
+
+== Réponse ==
+Il découvre que la base moléculaire de tous les vivants est identique. De l'éléphant à la bactérie,
+c'est la même base.
+
+== Question - 01 ==
+Ère génomique du vivant (À faire)
+
+== Réponse ==
+À faire
+
+== Question - 01 ==
+Quel sont les 2 grands types de microscopes? Quel est la différence fondamentale des 2 types de
+microscopes?
+
+== Réponse ==
+Les microscopes photoniques (ou optiques) et les microscopes électroniques. La différence entre les
+2 types de microscopes est que le grossissement est différent. Les longueurs d'ondes pour les
+électrons sont beaucoup plus petites que les longueurs d'ondes pour les photons. La grossissement
+possible pour les électrons est donc bien plus élevé que les microscopes optiques (2_000_000x
+vs 2_500x).
+
+== Question - 01 ==
+Quelles sont les composantes d'un microscope photonique? Quels composantes agrandissent les images?
+
+== Réponse ==
+Le condensateur, l'objectif et l'oculaire. L'objectif et l'oculaire agrandissent les images.
+
+== Question - 01 ==
+Quels sont les facteurs limitants d'un microscope photonique?
+
+== Réponse ==
+La limite de résolution. La limite de résolution est la distance minimale entre deux points qui
+peuvent être perçus comme étant distincts. Varie en fonction de la qualité du matériel.
+On peut utiliser la formule suivante pour trouver la distance minimale théorique.
+$n\frac{\lambda}{2}\sin(\theta)$ où $n$ est l'indice de réfraction du matériel, $\lambda$ et
+$\theta$ est l'angle du cone de la lumière entrant dans l'objectif.
+
+== Question - 01 ==
+Quelles sont les 3 facteurs que l'on peut intervenir pour avoir une meilleur résolution théorique
+pour une microscope optique?
+
+== Réponse ==
+1. Utiliser une longueur d'onde plus petite. La longueur d'onde pour le visible est entre 400 et
+700 nm. La longueur d'onde pour l'uv est entre 180 et 400nm. Il y a plusieurs problèmes qui peuvent
+survenir avec les UV donc avoir un microscope UV est bien plus dispendieux.
+2. Le n qui est la mesure de déviation de la lumière lors du changement de milieu. On peut immerger
+l'objectif dans une huile pour améliorer la valeur n. Avec l'air on pourrait perdre une résolution.
+3. Le (1/2)theta est l'angle du cone de lumière qui entre dans l'objectif. Si on approche l'objectif,
+alors on réduit le cone et donc on peut avoir un plus gros agrandissement. Il y a cependant une
+limite
+
+== Question - 01 ==
+Quel est la limite de résolution des meilleurs microscopes photoniques sur le marché? D'un microscope
+de bonne qualité?
+
+== Réponse ==
+Les limites de résolution des meilleurs microscopes sont de 0.1 microns. De bonne qualité, sera autour de
+0.2 microns.
+
+== Question - 01 ==
+Quel est une autre limite que la limite de résolution pour les microscopes photoniques?
+
+== Réponse ==
+Le contraste peut être limitant. Capacité de distinguer une structure de son environnement.
+Proportionnel à la différence de quantité de lumière absorbée. Grande portion d’eau dans les
+microorganismes bien souvent, Donc, on doit modifier le contraste, comme le microscope à fond clair.
+
+== Question - 01 ==
+Quel
+
+== Réponse ==
+
